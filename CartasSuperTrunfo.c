@@ -30,7 +30,6 @@ scanf("%d", &PIB);
 printf("Digite o numero dos pontos turisticos: \n");
 scanf("%d", &pontos);
 
-PEDIR PRA IMPRIMIR
 
 printf("nome do estado: %s - cidade: %s\n", estado, nome);
 printf (" codigo: %d - populacao: %d - area: %d - PIB: %d - numero pontos: %d", codigo, populaçao, area, PIB, numero de pontos);
@@ -40,20 +39,45 @@ return 0
 }
 
 
+int main(){
+char  estado = Bahia;
+char  codigo da carta = 'B02';
+char nome da cidade = "Salvador";
+int população = 90000;
+float área em km2 = 20.000
+float PIB = 9,77;
+int numero de pontos turisticos = 10;
 
 
+printf("digite o estado: \n");
+scanf("%s", &estado);
+
+printf("digite o codigos da carta: \n");
+scanf("%d", &codigo);
+
+printf("Digite o nome da cidade: \n");
+scanf("%s", &nome);
+
+printf("Digite a populaçao: \n");
+scanf("%d", &população);
+
+printf("Digite a area em km2: \n");
+scanf ("%d", &área);
+
+printf("Digite o PIB:\n");
+scanf("%d", &PIB);
+
+printf("Digite o numero de pontos: \n");
+scanf("%d", &pontos);
 
 
+printf("nome do estado: %s - cidade: %s\n", estado, nome);
+printf (" codigo: %d - populacao: %d - area: %d - PIB: %d - numero pontos: %d\n", codigo, populaçao, area, PIB, numero de pontos);
 
-
-
-
-
-
-
-
+return 0
 
 }
+
 
 // Desafio Super Trunfo - Países
 // Tema 1 - Cadastro das Cartas
