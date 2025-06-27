@@ -2,6 +2,8 @@
 
 int main(){
     printf("desafio super trunfo"\n);
+    printf("novo commit"\n);
+
     char  estado = Goías;
     char  codigo da carta = 'G01';
     char nome da cidade = "Goiania";
@@ -40,6 +42,7 @@ return 0
 
 
 int main(){
+    printf("novo commit"\n);
 char  estado = Bahia;
 char  codigo da carta = 'B02';
 char nome da cidade = "Salvador";
